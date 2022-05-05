@@ -1,0 +1,3 @@
+cmd+opt+arrow => switch panes
+opt+shift+cmd+H => new horizontal pane split
+opt+shift+cmd+V => new vertical pane split

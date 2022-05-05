@@ -1,0 +1,2 @@
+npx create-react-app <NAME> --template typescript => create new react project in folder <NAME>
+npm install react-bootstrap bootstrap => install bootstrap in current folder

@@ -1,0 +1,5 @@
+amm -> scala repl
+sbt new devinsideyou/scala3-seed.g8 -> new scala 3 project
+cs install giter8 -> template manager
+sbt in folder -> compile to compile
+sbt: compile, run

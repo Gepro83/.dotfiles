@@ -1,0 +1,7 @@
+stow -> magage dotfiles
+stow -nv -> "no" for trying out "v" verbose
+stow S -> stow, default
+stow D -> unstow
+stow t -> "target directory" should always be home ~~
+stow -vt ~ git notes - or stow -vt ~ *  -> "*" everything
+stow --adopt -vt ~ git -> moves files to .dotfiles

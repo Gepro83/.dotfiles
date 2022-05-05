@@ -1,0 +1,6 @@
+ctrl+a => move cursor start of line
+ctrl+e => move cursor end of line
+unzip FILE
+ls -altr => sort by date
+ls -alt => sort by date (unreversed)
+alias name="command"

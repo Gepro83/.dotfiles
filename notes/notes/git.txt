@@ -1,0 +1,12 @@
+git commit --amend --no-edit
+git log --graph --oneline --decorate => nice visual log
+git fetch origin => update everything from remote
+git reset --hard origin/master => discard all local changes on master
+git clean -df => remove untracked local files
+git checkout - => go back to previously worked on branch
+git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit => nice gitlog
+git config --global alias.logline "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit" => global git alias
+git diff-tree --no-commit-id --name-only -r <HASH> => list files in commit
+git add -u => only modified and deleted
+git remote prune origin => delete non existing remote branches
+git fetch -p && git branch -vv | awk '/: gone]/{print }' | xargs git branch -d => delete local branches not in remote
