@@ -1,0 +1,107 @@
+
+small:
+check christmas event
+check mechanical mac keyboard
+sort notes
+
+
+medium:
+setup org mode
+setup neovim - primeagent vim RC vid
+wand bei tisch streichen mit abwaschbar
+
+
+reading:
+http://data.tmorris.net/talks/di-without-the-gymnastics/
+
+
+===================
+   Day Structure 
+===================
+
+mantra
+small todo: 15 minutes
+day/hours planning
+
+
+===================
+	Day
+===================
+
+Work: 7:45 - after standup
+	1 starcraft (if less than 10 mins -> second)
+	work until 12:00
+	walk
+	work 13:00 - 16:00
+	family time
+	
+	
+
+
+
+===================
+   Project Ideas
+===================
+
+TODO app:
+	- have groups of todos
+	- match to longterm/shortterm goals
+	- app and webapp
+	- share with other people
+	- alexa support
+
+
+===========
+   Mantra
+===========
+
+1. Rules
+	- no food until 17:00
+	- 0 youtube/fb/... during work (explicit pauses exculded)
+	- no mobile games
+
+2. Gratitude
+	- children, wife
+	- freedom
+
+3. Long Term Goals
+	- best father/husband I can be
+	- successfull career in software 
+	- emotionally strong and reliable
+	- marathon
+	- handstand
+
+4. Short Term Goals
+	- 30 pushups in one set
+	- 10 clean pullups in one set
+	- 65 kg
+	- Running side project on server + app
+	- Use vim motions efficiently
+
+
+5. Core Principles
+	- love
+	- strength
+	- compassion
+
+6. Mantra
+	- meine Familie tut mir gut 
+	
+7. Planning day
+
+8. Visualize day
+
+
+
+
+
+
+
+:
+
+
+
+
+
+
+

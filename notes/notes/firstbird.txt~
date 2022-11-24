@@ -1,0 +1,79 @@
+OAreferrals service:
+	  -> tenant/recruiter does job creation
+	  -> talentscout creates share
+	  -> candidate creates referral (from shared link)
+	  -> talentscout gives feedback on referral (does he know candidate..)
+	  -> when candidate applys -> referral completed
+
+
+nemesis: admin panel
+
+hummingbird-api-gateway-lambda:
+	- gateway that forwards restcalls to internal services
+	- swagger api description:
+	  	  https://docs.firstbird.com/hummingbird/qa/api/swagger/
+		  put in https://docs.firstbird.com/hummingbird/qa/api/swagger.yaml to search
+	
+tools:
+	* parrot: - utility for event-schema evolution (json)
+	  	  - also has encryption -> conform to GDPR
+
+general:
+	Here is the new UID (VAT) number again: ATU78013105
+
+
+testing company:
+0f0febbc-227f-478e-9ff2-6e9a3680d702
+klafu
+georg.prohaska+company@radancy.com
+
+oauth2:
+clientid: 67c83211-593b-4fd9-ab09-7a0401fc8669
+client secret: mmcg7ao9rhg4ejt9p1o0tg73bm
+
+IntgernalServiceUser:
+{
+  "client_id": "00000000-0000-0000-0000-000000000001",
+  "client_secret": "efUWEJRK8kcVLpZZVMWK2JiVgagppvxroVe7CELnPqtmJfdeej",
+  "grant_type": "client_credentials"
+}
+
+
+fbrdCompliance
+
+
+
+
+
+fargate - fully managed aws service for  
+
+aws acc:
+    qa
+    prod
+
+    jobAPI -> new account
+    webapp -> new account
+
+MSK -> aws kafka service
+
+
+Libraries:
+scrimage - image processing library jvm
+apache pdfbox - pdf handling
+
+
+supertech pending invitations
+
+showcase -> repo for current techstack - how to setup new service
+
+tapir -> typed API - interpreters for client and server
+paradox -> markdown documentation
+
+bis controller alles in api package -> dann in domain
+
+nemiss-ticket:
+	todo: check if permissions are right on frontend
+
+
+find process running on port: lsof -i :PORT -S
+
