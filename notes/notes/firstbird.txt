@@ -164,6 +164,7 @@ Move tabs:
 _ => start of line
 o => new line below
 O => new line above
+"y+ <enter> => copy to clipboard
 
 VimBeGood => learning game
 jenkins job that stops and removes all containers on a node and removes all images
@@ -171,6 +172,11 @@ jenkins job that stops and removes all containers on a node and removes all imag
 	- when build is interrupted and container keeps running
 
 
-7:45 
+Auto Vacuum: postgres when updating rows actually creates new 
+    ones and then at later point vaccuums the old ones
 
- 
+8:30 - 11:40 - 13:00
+
+
+push-notification-delivery-failures-notifications-service-qa-eu-central-1
+ encryption disabled in qa and staging?

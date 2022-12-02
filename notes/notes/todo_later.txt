@@ -1,9 +1,11 @@
 
 small:
 check christmas event
-check mechanical mac keyboard
 sort notes
-
+cancel internet
+remarkable
+json plugin vim
+.conf plugin vim
 
 medium:
 setup org mode
@@ -12,7 +14,6 @@ wand bei tisch streichen mit abwaschbar
 
 
 reading:
-http://data.tmorris.net/talks/di-without-the-gymnastics/
 
 
 ===================
@@ -28,16 +29,7 @@ day/hours planning
 	Day
 ===================
 
-Work: 7:45 - after standup
-	1 starcraft (if less than 10 mins -> second)
-	work until 12:00
-	walk
-	work 13:00 - 16:00
-	family time
-	
-	
-
-
+Work: 
 
 ===================
    Project Ideas
@@ -77,7 +69,7 @@ TODO app:
 	- 65 kg
 	- Running side project on server + app
 	- Use vim motions efficiently
-
+    - driver, or some sort of higher role in firstbird
 
 5. Core Principles
 	- love
@@ -90,17 +82,6 @@ TODO app:
 7. Planning day
 
 8. Visualize day
-
-
-
-
-
-
-
-:
-
-
-
 
 
 

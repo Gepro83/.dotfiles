@@ -1,0 +1,2 @@
+print("-- conifg --")
+require("gepro")
