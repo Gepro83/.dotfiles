@@ -1,14 +1,11 @@
 
 small:
-check christmas event
 sort notes
-cancel internet
-remarkable
-json plugin vim
+adress änderungen ergo etc
 .conf plugin vim
+hammerspoon
 
 medium:
-setup org mode
 setup neovim - primeagent vim RC vid
 wand bei tisch streichen mit abwaschbar
 
@@ -30,7 +27,13 @@ day/hours planning
 ===================
 
 Work: 
+    jobolyzer
+    9:10 - pushups
+    10:30 - pullups
+    12:30 - situps + running
+    work
 
+    
 ===================
    Project Ideas
 ===================

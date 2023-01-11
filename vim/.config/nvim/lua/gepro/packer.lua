@@ -10,14 +10,17 @@ return require('packer').startup(function(use)
   use 'folke/tokyonight.nvim'
   use 'ThePrimeagen/vim-be-good'
   use {
-      'nvim-treesitter/nvim-treesitter',
-      run = function()
-          local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
-          ts_update()
-      end,
+    'nvim-treesitter/nvim-treesitter',
+    run = function()
+        local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
+        ts_update()
+    end,
   }
-  use {'nvim-orgmode/orgmode', config = function()
-    require('orgmode').setup{}
-    end
+  use 'nvim-lua/plenary.nvim'
+  use 'nvim-tree/nvim-web-devicons'
+  use {
+    'nvim-telescope/telescope.nvim', tag = '0.1.0',
+    requires = { {'nvim-lua/plenary.nvim'} 
   }
+}
 end)

@@ -150,7 +150,8 @@ http-server -> local http server
 CMD-SHIFT-P command palettet
 CMD-K CMD-I show hover
 
-ctrl + ´ -> switch terminal to editor
+ctrl + ´ -> switch t
+erminal to editor
 
 Move tabs:
 	absolute:
@@ -171,12 +172,44 @@ jenkins job that stops and removes all containers on a node and removes all imag
 	- https://jenkins.firstbird.io/job/nuke-build-nodes/ 
 	- when build is interrupted and container keeps running
 
-
+jh
 Auto Vacuum: postgres when updating rows actually creates new 
     ones and then at later point vaccuums the old ones
 
-8:30 - 11:40 - 13:00
+8:00 - 12:35
+
+IntegrationDeactivated and CustomerTrialExpired event not emitted anywere
+    -> handled in notification service never happens
+
+TODO KeyDeletion:
+
+    move PersistentSchedulerExtension to common
+    feature toggle everything, even spin up of projection
+
+    make sure double delete does not cause failures 
+    check minimal scope for secret deleter
 
 
-push-notification-delivery-failures-notifications-service-qa-eu-central-1
- encryption disabled in qa and staging?
+TODO Jobolizer:
+   
+    get prod data - make sql query
+
+    ExtractModel script
+        - make rest calls
+            - consider rate limit
+            - 2 calls at the same time
+        - save to file
+            csv with jobid;response
+        - track progress
+
+    ExportModel script
+        - read/deserialize responses
+        - write out to desired csv format
+
+
+
+connect to docker container and db:
+    docker exec -it <imagename> /bin/bash
+    psql -U postgres
+ 
+akka.actor.InvalidActorNameException: actor name [akka-persistent-scheduler] is not unique!

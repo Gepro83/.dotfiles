@@ -7,3 +7,5 @@ stow -vt ~ git notes - or stow -vt ~ *  -> "*" everything
 stow --adopt -vt ~ git -> moves files to .dotfiles
 emacs -Q -nw -> start emacs in terminal
 sdkman -> manage (java) sdks for commandline
+brew install ripgrep -> depdencny of telescope, command line tool for searching for regexp recursivly
+brew install fd -> easier to use find
