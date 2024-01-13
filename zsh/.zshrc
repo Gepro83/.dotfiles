@@ -100,4 +100,5 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH=$PATH:/Users/gprohaska/dev/.dotfiles/scripts
-alias java8=javaE.sh 
+alias java8=javaE.sh
+alias gcp-prod='~/cloud-sql-proxy --address 0.0.0.0 --port 1234 xamoom-217413:europe-west3:xamoom-prod-postgres'
