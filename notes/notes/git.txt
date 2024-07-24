@@ -9,6 +9,6 @@ git config --global alias.logline "log --graph --pretty=format:'%Cred%h%Creset -
 git diff-tree --no-commit-id --name-only -r <HASH> => list files in commit
 git add -u => only modified and deleted
 git remote prune origin => delete non existing remote branches
-git fetch -p && git branch -vv | awk '/: gone]/{print }' | xargs git branch -d => delete local branches not in remote
+git fetch -p && git branch -vv | awk '/: gone]/{print $1}' | xargs git branch -d => delete local branches not in remote
 git checkout - => checkout previous bran
 git checkout -- file => revert file changes

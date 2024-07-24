@@ -101,4 +101,27 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH=$PATH:/Users/gprohaska/dev/.dotfiles/scripts
 alias java8=javaE.sh
-alias gcp-prod='~/cloud-sql-proxy --address 0.0.0.0 --port 1234 xamoom-217413:europe-west3:xamoom-prod-postgres'
+alias gcp-prod='~/cloud-sql-proxy --address 0.0.0.0 --port 5432 xamoom-217413:europe-west3:xamoom-prod-postgres'
+alias gcp-dev='~/cloud-sql-proxy --address 0.0.0.0 --port 5432 xamoom-dev:europe-west1:xn-dev'
+alias proddb='gcloud beta sql connect --project xamoom-217413 --user app xamoom-prod-postgres'
+alias devdb='gcloud beta sql connect --project xamoom-dev --user app xn-dev'
+alias deploy-dev-app='gcloud app deploy --project xamoom-dev --no-promote'
+alias deploy-prod-app='gcloud app deploy --project xamoom-217413 --no-promote'
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/georgprohaska/dev/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/georgprohaska/dev/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/georgprohaska/dev/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/georgprohaska/dev/google-cloud-sdk/completion.zsh.inc'; fi
+export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
+
+export PATH="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin:$PATH"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
